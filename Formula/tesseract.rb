@@ -43,7 +43,7 @@ class Tesseract < Formula
     depends_on :x11
   end
 
-  needs :cxx11
+#   needs :cxx11
 
   resource "tessdata" do
     url "https://github.com/tesseract-ocr/tessdata/archive/3.04.00.tar.gz"
